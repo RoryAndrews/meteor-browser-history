@@ -27,3 +27,15 @@ Router.route('/stuff/:_id', {
   name: 'EditStuff',
   data: function() { return Stuff.findOne(this.params._id); }
 });
+
+Router.route("/internetexplorer/", {
+  name: "InternetExplorer"
+});
+
+Router.route("/firefox/", {
+  name: "Firefox"
+});
+
+Router.route("/chrome/", {
+  name: "Chrome"
+});

@@ -4,8 +4,8 @@ body {
   margin-right: 30px;
 }
 
-#history img {
+.well img {
   float: left;
-  margin: 10px;
+  margin-right: 10px;
 }
 
